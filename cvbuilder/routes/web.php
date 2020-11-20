@@ -36,3 +36,11 @@ Route::resource('education', 'EducationController')->middleware('auth');
 Route::resource('career', 'CareerController')->middleware('auth');
 
 Route::resource('skill', 'SkillController')->middleware('auth');
+
+Route::resource('resume', 'ResumeController')->middleware('auth');
+
+Route::resource('resume2', 'Resume2Controller')->middleware('auth');
+
+
+
+

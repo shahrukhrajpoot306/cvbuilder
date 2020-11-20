@@ -20,6 +20,8 @@ class CreateUserDetailsTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->string('address');
+            $table->string('linkedin');
+            $table->string('summary');
             $table->timestamps();
         });
     }

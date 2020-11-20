@@ -94,9 +94,11 @@ class UserDetailController extends Controller
             'fullname'=>'required',
             'email'=>'required|email',
             'phone'=>'required',
+            'linkedin'=>'required',
+            'summary'=>'required',
         ]);
 
-        $userDetail->update($request->expect('_token'));
+        $userDetail->update($request->only(['fullname','email','phone','address','linkedin','summary']));
         return redirect()->route('user-detail.index');
 
     }

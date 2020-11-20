@@ -15,6 +15,8 @@
     <input type="text" name="email" placeholder="email" value="{{$userDetail->email}}">
     <input type="text" name="phone" placeholder="phone" value="{{$userDetail->phone}}">
     <input type="text" name="address" placeholder="address" value="{{$userDetail->address}}">
+    <input type="text" name="linkedin" placeholder="linkedin" value="{{$userDetail->address}}">
+    <input type="text" name="summary" placeholder="summary" value="{{$userDetail->address}}">
     <input type="submit" value="submit">
 
 

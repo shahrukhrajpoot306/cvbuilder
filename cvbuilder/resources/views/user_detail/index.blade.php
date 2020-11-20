@@ -7,7 +7,8 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title"> {{$details->fullname}} {{$details->email}} {{$details->phone}} {{$details->address}} </h4>
+                    <h4 class="card-title"> {{$details->fullname}} {{$details->email}} {{$details->phone}} {{$details->address}}
+                        {{$details->linkedin}} {{$details->summary}}</h4>
 
                     <a href="{{route('user-detail.edit', $details)}}" class="btn btn-sm btn-primary" role="button">Edit</a>
 
